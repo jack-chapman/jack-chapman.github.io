@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 1em 0em;
+    font-size: 3em;
+}
+
+.bigmoji {
+    font-size: 3em;
+    padding-top: 1.5em;
+}
