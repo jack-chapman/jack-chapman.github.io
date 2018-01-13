@@ -1,15 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Palanquin';
     margin: auto;
     text-align: center;
+    color: #001514;
+    height: 100%;
+    min-height: 100%;
+    overflow: scroll;
 }
 
-h1 {
-    padding: 1em 0em;
-    font-size: 3em;
+.heading {
+    padding: 1em;
+    height: 100%;
+    position: static;
+    margin: 1em auto;
+    font-size: 10em;
 }
 
-.bigmoji {
-    font-size: 3em;
-    padding-top: 1.5em;
+header {
+    background-color: #ffffff;
+}
+
+#changer {
+    color: #85ff9e;;
+    background-color: #001514;
+}
+
+.separator {
+    padding: 0.5em;
+    background-color: #85ff9e;
+}
+
+main {
+    padding: 1em 2em;
+    padding-bottom: 3em;
+    background-color: #001514;
+    color: #ffffff;
+    text-align: left;
+}
+
+.links {
+    padding-bottom: 4em;
+}
+
+.intro {
+    font-size: 1.2em;
+    padding-top: 2em;
+}
+
+hr {
+    margin: 2em 0em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #85ff9e;
+}
+
+.highlight {
+    color: #85ff9e;
+}
+
+.grad {
+    background: #85ff9e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #85ff9e, #11998e);
+    background: linear-gradient(to bottom, #85ff9e, #11998e);
+}
+
+.about {
+    width: 100%;
+    
+}
+
+
+
+footer {
+    color: #001514;
+    padding: 1em 0em 2em 0em;;
+    
+}
+
+footer ul li{
+    float: left;
+    width: 27%;
+    padding: 1em 0em 2em 0em;
+}
+
+@media only screen  and (min-width : 481px) {
+    .heading {
+        font-size: 5em;
+        padding: 2em 0em;
+    }
+
+    main {
+        padding: 2em;
+    }
+
+    footer {
+        padding: 2em 1em;
+    }
+
+    footer ul li a {
+        color: #001514;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    main {
+        font-size: 0.75em;
+    }
+
+    footer {
+        font-size: 0.75em;
+    }
+
+    .heading {
+        font-size: 2em;
+        padding: 1em 0em;
+    }
+
+    .separator {
+        padding: 0.2em;
+        background-color: #85ff9e;
+    }
+
+    footer ul li {
+        padding: 1em 0.3em;
+    }
+
+    footer ul li a {
+        color: #001514;
+    }
 }
