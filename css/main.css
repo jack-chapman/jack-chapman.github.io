@@ -33,7 +33,7 @@ header {
 }
 
 main {
-    padding: 1em 2em;
+    padding: 1em 5em;
     padding-bottom: 3em;
     background-color: #001514;
     color: #ffffff;
@@ -105,11 +105,11 @@ footer ul li{
     }
 
     main {
-        padding: 2em;
+        padding: 2em 8em;
     }
 
     footer {
-        padding: 2em 1em;
+        padding: 2em 8em;
     }
 
     footer ul li a {
@@ -121,10 +121,12 @@ footer ul li{
 
     main {
         font-size: 0.75em;
+        padding: 2em;
     }
 
     footer {
         font-size: 0.75em;
+        padding: 0em 2em;
     }
 
     .heading {
