@@ -15,7 +15,7 @@ body {
     height: 100%;
     position: static;
     margin: 1em auto;
-    font-size: 10em;
+    font-size: 8em;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
 }
 
 main {
-    padding: 1em 5em;
+    padding: 1em 14em;
     padding-bottom: 3em;
     background-color: #001514;
     color: #ffffff;
@@ -98,14 +98,14 @@ footer ul li{
     padding: 1em 0em 2em 0em;
 }
 
-@media only screen  and (min-width : 481px) {
+@media only screen  and (min-width : 481px) and (max-device-width: 1200px) {
     .heading {
-        font-size: 5em;
+        font-size: 4em;
         padding: 2em 0em;
     }
 
     main {
-        padding: 2em 8em;
+        padding: 2em 6em;
     }
 
     footer {
@@ -117,7 +117,7 @@ footer ul li{
     }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (max-device-width : 480px) {
 
     main {
         font-size: 0.75em;
