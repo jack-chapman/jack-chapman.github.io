@@ -53,3 +53,29 @@ div.links a {
 div.links a:hover {
   color: #ec5e66;
 }
+
+@media (max-width: 414px) {
+
+  div.words {
+    top: 10px;
+  }
+  div.name-title {
+    width: 201px;
+    grid-template-columns: repeat(3, 67px);
+    grid-template-rows: repeat(4, 67px);
+  }
+  div.name-title p {
+    font-size: 22.22px;
+    line-height: 22.22px;
+  }
+  div.links {
+    width: 201px;
+    grid-template-columns: repeat(3, 67px);
+    grid-template-rows: 67px;
+  }
+
+  div.links a {
+    line-height: 67px;
+    font-size: 12px;
+  }
+}
