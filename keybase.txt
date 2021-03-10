@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jack_chapman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jackchapman.dev
+  * I am jack_chapman (https://keybase.io/jack_chapman) on keybase.
+  * I have a public key ASB0V8P244ybTsNOGXslOIj8VMkejmogN2L4DiiPpEralQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207457c3f6e38c9b4ec34e197b253888fc54c91e8e6a203762f80e288fa44ada950a",
+      "host": "keybase.io",
+      "kid": "01207457c3f6e38c9b4ec34e197b253888fc54c91e8e6a203762f80e288fa44ada950a",
+      "uid": "678ffa4777c74dbaab140f1291f64219",
+      "username": "jack_chapman"
+    },
+    "merkle_root": {
+      "ctime": 1615403549,
+      "hash": "14c997d3664789bdd923c84cbaf58fe528ed22a29b5c550712ddb126c08d6549bb6b2abe64d034f48a49d14813b564faf0f9c6f7b3f164d5dce2aeef4da222d4",
+      "hash_meta": "06c38600b79adebca20b0c076364fc0fdb5eb0542d8d764146753719f894a6f1",
+      "seqno": 19340969
+    },
+    "service": {
+      "entropy": "7b6kovgPnEL6qKePvmRJ+7WC",
+      "hostname": "jackchapman.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1615403570,
+  "expire_in": 504576000,
+  "prev": "46045be0610673abd02ed781e4277b88c6064c799e7c0ca558d1d4fc1bb3e1dd",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdFfD9uOMm07DThl7JTiI/FTJHo5qIDdi+A4oj6RK2pUKp3BheWxvYWTESpcCBcQgRgRb4GEGc6vQLteB5Cd7iMYGTHmefAylWNHU/Buz4d3EIG7sgtzOk6ib/q6QoPmfTtoPMZG5a3eA3vSCYG671/QdAgHCo3NpZ8RAssUFR905ZPtWNnrbV/u6AqZiPjQLohmxVQVoM5Ue8OksOCn4BAvlxQBDWFusZ0ye/GkGtx7bmg3KcMthr9x5AqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIA0I+0hWUOvP0eoF9AFdwGNzS5mBNFtM2xngRsBhaWPTo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jack_chapman
+
+==================================================================
